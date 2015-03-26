@@ -1,0 +1,193 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 11pt;
+	padding: 0px;
+	margin:0px;
+}
+header {
+	background: #CC0000;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+section {
+	padding-left: 50px;
+}
+div#Title {
+	color: #CC0000;
+	font-size: 16pt;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+header div#logo {
+	display: inline-block;
+	width: 540px;
+	height: 85px;
+}
+header div#logo img {
+	width: 100%;
+}
+header a:link, header a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+header a:hover {
+	text-decoration: underline;	
+}
+header {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #000000;	
+}
+a:link, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+#login-form {
+	margin: 10px;
+}
+#login-form .form-label {
+	display: block;
+	margin: 0 0 5px;
+}
+#login-form em{
+	size: 9pt;
+	margin: 0px;
+	font-family: Times New Roman;
+	color: #AAAAAA;
+}
+
+#login-form input.text{
+	border: 1px solid #AAAAAA;
+	height: 20px;
+	width: 270px;
+	padding: 4px;
+}
+#login-form input.text-name{
+	border: 1px solid #AAAAAA;
+	height: 20px;
+	width: 130px;
+	margin: 0 10px 0 0;
+	padding: 4px;
+}
+ul {
+	padding: 0px;
+	margin: 0px;
+}
+ul#courses li
+{
+	list-style-type: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 1px solid;
+	border-radius: 5px;
+	width:800px;
+}
+em.info {
+	size: 10pt;
+	color: #666699;
+}
+em.groupinfo {
+	size: 10pt;
+	color: #505050;
+}
+div#nav {
+	width: 800px;
+	height: 20px;
+}
+span#nav_links_left {
+	float: left;
+}
+span#nav_links_right {
+	float: right;
+}
+div#GroupBox {
+	padding: 4px;
+	margin: 0px;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px;
+	width: 270px;
+}
+div#StudentContainer {
+    float:left;
+	width:75%;
+	
+}
+div#messageboard {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #a1a1a1;
+	box-shadow: 1px 1px 5px #888888;
+	border-radius: 5px;
+}
+div#StudentList {
+	float: left;
+	width: 49%;
+	border: 1px solid #a1a1a1;
+	box-shadow: 1px 1px 5px #888888;
+	border-radius: 5px;
+}
+div#StudentList ul {
+	padding: 0px;
+	margin: 0px;
+}
+div#StudentList li {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0px;
+}
+div#StudentList li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+div#GroupContainer {
+    float:left;
+	width:75%;
+	
+}
+div#GroupList {
+	float: left;
+	width: 60%;
+	border: 1px solid #a1a1a1;
+	box-shadow: 1px 1px 5px #888888;
+	border-radius: 5px;
+}
+div#GroupList ul {
+	padding: 0px;
+	margin: 0px;
+}
+div#GroupList li {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0px;
+}
+div#GroupList li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+div#StudentSelected {
+	float: right;
+	width: 49%;
+	border: 1px solid #a1a1a1;
+	box-shadow: 1px 1px 5px #888888;
+	border-radius: 5px;
+}
+	
+div#StudentSelected ul {
+	padding: 0px;
+	margin: 0px;
+}
+div#StudentSelected li {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0px;
+}
+div#StudentSelected li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
