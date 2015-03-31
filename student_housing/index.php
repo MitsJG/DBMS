@@ -33,13 +33,20 @@
         
         
 		if(!strcmp($peopleType,"student"))
-			echo "Logged in as student<br>";
+        {
+            echo "Logged in as student<br>";
+        }
+
 		else if(!strcmp($peopleType,"guest"))
+        {
 			echo "Logged in as guest<br>";
+            header('Location: guest_details.php');
+        }
 		else
+        {
 			echo "Logged in as staff<br>";
             header('Location: admin_dashboard.php');
-		
+        }
 		$mysqli = connect_db();
 
 		$sql_query = "SELECT * FROM `student_housing`.`univ_people` u WHERE u.peopleID = '$peopleID';";
